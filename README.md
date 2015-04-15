@@ -37,11 +37,10 @@ var baseurl = 'http://your-domain.com/file';</pre><br>
 &lt;link rel="stylesheet" href="//cdnjs.cloudflare.com/ajax/libs/codemirror/4.3.0/codemirror.min.css"&gt; <br>
 &lt;link rel="stylesheet" href="//cdnjs.cloudflare.com/ajax/libs/codemirror/4.3.0/addon/dialog/dialog.min.css"&gt; <br>
 &lt;link rel="stylesheet" href="//cdnjs.cloudflare.com/ajax/libs/codemirror/4.3.0/theme/monokai.min.css"&gt;
-</pre><br>
+</pre>
 <pre>
 &lt;!-- Display File Browser Awesome --&gt;
 &lt;div class="ibc_fba"&gt;&lt;/div&gt;
-
 &lt;!-- Read File --&gt;
 &lt;div id="ibc_fba_file"&gt;&lt;/div&gt;
 </pre>
