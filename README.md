@@ -18,11 +18,11 @@ var baseurl = 'http://your-domain.com/file';</pre><br>
 </pre>
 <pre>    
 # Include fba.js
-&lt;script src="&lt;script src="&lt;?php echo base_url(); ?&gt;asset/js/fba.js"&gt;&lt;/script&gt;
+&lt;script src="&lt;?php echo base_url(); ?&gt;asset/js/fba.js"&gt;&lt;/script&gt;
 </pre>
 <pre>    
 # Custom Style
-&lt;link type="text/css" rel="stylesheet" href="&lt;script src="&lt;?php echo base_url(); ?&gt;asset/css/fba.css" /&gt;
+&lt;link type="text/css" rel="stylesheet" href="&lt;?php echo base_url(); ?&gt;asset/css/fba.css" /&gt;
 </pre>
 <pre>    
 # Include libraries codemirror
