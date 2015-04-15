@@ -9,29 +9,29 @@ private $dirpath = "http://your-domain.com/public_file";</pre><br>
 var baseurl = 'http://your-domain.com/file';</pre><br>
 3. <b>application/views/file.php</b><br>
 <pre>
-&lt;!-- Include Font Awesome --&gt;
+# Include Font Awesome
 &lt;link href="//cdnjs.cloudflare.com/ajax/libs/font-awesome/4.1.0/css/font-awesome.min.css" rel="stylesheet"&gt;
         
-&lt;!-- Include jQuery --&gt;
+# Include jQuery
 &lt;script src="//code.jquery.com/jquery-2.1.1.min.js"&gt;&lt;/script&gt;
         
-&lt;!-- Include fba.js --&gt;
+# Include fba.js
 &lt;script src="&lt;script src="&lt;?php echo base_url(); ?&gt;asset/js/fba.js"&gt;&lt;/script&gt;
         
-&lt;!-- Custom Style --&gt;
+# Custom Style
 &lt;link type="text/css" rel="stylesheet" href="&lt;script src="&lt;?php echo base_url(); ?&gt;asset/css/fba.css" /&gt;
         
-&lt;!-- Include libraries codemirror --&gt;
-&lt;script src="//cdnjs.cloudflare.com/ajax/libs/codemirror/4.3.0/codemirror.min.js"&gt;&lt;/script&gt;
-&lt;script src="//cdnjs.cloudflare.com/ajax/libs/codemirror/4.3.0/mode/xml/xml.min.js"&gt;&lt;/script&gt;
-&lt;script src="//cdnjs.cloudflare.com/ajax/libs/codemirror/4.3.0/mode/javascript/javascript.min.js"&gt;&lt;/script&gt;
-&lt;script src="//cdnjs.cloudflare.com/ajax/libs/codemirror/4.3.0/mode/css/css.min.js"&gt;&lt;/script&gt;
-&lt;script src="//cdnjs.cloudflare.com/ajax/libs/codemirror/4.3.0/mode/htmlmixed/htmlmixed.min.js"&gt;&lt;/script&gt;
-&lt;script src="//cdnjs.cloudflare.com/ajax/libs/codemirror/4.3.0/addon/dialog/dialog.min.js"&gt;&lt;/script&gt;
-&lt;script src="//cdnjs.cloudflare.com/ajax/libs/codemirror/4.3.0/addon/search/searchcursor.min.js"&gt;&lt;/script&gt;
-&lt;script src="//cdnjs.cloudflare.com/ajax/libs/codemirror/4.3.0/addon/search/search.min.js"&gt;&lt;/script&gt;
-&lt;link rel="stylesheet" href="//cdnjs.cloudflare.com/ajax/libs/codemirror/4.3.0/codemirror.min.css"&gt;
-&lt;link rel="stylesheet" href="//cdnjs.cloudflare.com/ajax/libs/codemirror/4.3.0/addon/dialog/dialog.min.css"&gt;
+# Include libraries codemirror
+&lt;script src="//cdnjs.cloudflare.com/ajax/libs/codemirror/4.3.0/codemirror.min.js"&gt;&lt;/script&gt; <br>
+&lt;script src="//cdnjs.cloudflare.com/ajax/libs/codemirror/4.3.0/mode/xml/xml.min.js"&gt;&lt;/script&gt; <br>
+&lt;script src="//cdnjs.cloudflare.com/ajax/libs/codemirror/4.3.0/mode/javascript/javascript.min.js"&gt;&lt;/script&gt; <br>
+&lt;script src="//cdnjs.cloudflare.com/ajax/libs/codemirror/4.3.0/mode/css/css.min.js"&gt;&lt;/script&gt; <br>
+&lt;script src="//cdnjs.cloudflare.com/ajax/libs/codemirror/4.3.0/mode/htmlmixed/htmlmixed.min.js"&gt;&lt;/script&gt; <br>
+&lt;script src="//cdnjs.cloudflare.com/ajax/libs/codemirror/4.3.0/addon/dialog/dialog.min.js"&gt;&lt;/script&gt; <br>
+&lt;script src="//cdnjs.cloudflare.com/ajax/libs/codemirror/4.3.0/addon/search/searchcursor.min.js"&gt;&lt;/script&gt; <br>
+&lt;script src="//cdnjs.cloudflare.com/ajax/libs/codemirror/4.3.0/addon/search/search.min.js"&gt;&lt;/script&gt; <br>
+&lt;link rel="stylesheet" href="//cdnjs.cloudflare.com/ajax/libs/codemirror/4.3.0/codemirror.min.css"&gt; <br>
+&lt;link rel="stylesheet" href="//cdnjs.cloudflare.com/ajax/libs/codemirror/4.3.0/addon/dialog/dialog.min.css"&gt; <br>
 &lt;link rel="stylesheet" href="//cdnjs.cloudflare.com/ajax/libs/codemirror/4.3.0/theme/monokai.min.css"&gt;
 </pre><br>
 <pre>
