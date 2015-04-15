@@ -6,7 +6,7 @@ error_reporting(0);
 class file extends CI_Controller {
 
 	// Tentukan dulu URL path direktori yang akan di scan. Example: http://ibacor.com/download/file
-	private $dirpath = base_url().'public_file';
+	private $dirpath = "http://your-domain.com/public_file";
 	 
 	function index()
 	{		
