@@ -11,16 +11,20 @@ var baseurl = 'http://your-domain.com/file';</pre><br>
 <pre>
 # Include Font Awesome
 &lt;link href="//cdnjs.cloudflare.com/ajax/libs/font-awesome/4.1.0/css/font-awesome.min.css" rel="stylesheet"&gt;
-        
+</pre>
+<pre>
 # Include jQuery
 &lt;script src="//code.jquery.com/jquery-2.1.1.min.js"&gt;&lt;/script&gt;
-        
+</pre>
+<pre>    
 # Include fba.js
 &lt;script src="&lt;script src="&lt;?php echo base_url(); ?&gt;asset/js/fba.js"&gt;&lt;/script&gt;
-        
+</pre>
+<pre>    
 # Custom Style
 &lt;link type="text/css" rel="stylesheet" href="&lt;script src="&lt;?php echo base_url(); ?&gt;asset/css/fba.css" /&gt;
-        
+</pre>
+<pre>    
 # Include libraries codemirror
 &lt;script src="//cdnjs.cloudflare.com/ajax/libs/codemirror/4.3.0/codemirror.min.js"&gt;&lt;/script&gt; <br>
 &lt;script src="//cdnjs.cloudflare.com/ajax/libs/codemirror/4.3.0/mode/xml/xml.min.js"&gt;&lt;/script&gt; <br>
