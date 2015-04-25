@@ -45,3 +45,4 @@ var baseurl = 'http://your-domain.com/file';</pre><br>
 &lt;div id="ibc_fba_file"&gt;&lt;/div&gt;
 </pre>
 <h1><a href ="http://ibacor.com/file" target="_BLANK">DEMO</a></h1>
+<h2><a href="https://github.com/bachors/jQuery-File-Browser-Awesome/" target="_blank">see also for PHP native</a></h2>
