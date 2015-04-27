@@ -32,7 +32,7 @@ function ibc_fba(baseurl,sub,fix) {
 		r+="<table>";
 		r+='<thead><tr><th class="name">Name</th><th class="size">Size</th><th class="modif">Last Modified</th></tr></thead><tbody>';
 		if(data.back!="") {
-			r+='<tr><td colspan="3" class="root"><i class="bsub fa fa-reply" data-bsub="'+data.back.replace(fix,"")+'"></i> '+data.root+"</td></tr>"
+			r+='<tr><td colspan="3" class="root"><i class="bsub fa fa-reply" data-bsub="'+data.back.replace(fix,"")+'"></i> '+data.root+'</td></tr>';
 		}
 		$.each(data.items,function(i,item) {
 			var size=ibc_ukurana(data.items[i].size);
