@@ -6,7 +6,10 @@ Simple plugin file browser for codeigniter with jQuery
 private $dirpath = "http://your-domain.com/public_file";</pre><br>
 2. <b>asset/js/fba.js</b><br>
 <pre>// Setting: Base_URL/Controllers_name
-var baseurl = 'http://your-domain.com/file';</pre><br>
+var baseurl = 'http://your-domain.com/file';
+
+// Folder yang akan discan
+var browser = 'download';</pre><br>
 3. <b>application/views/file.php</b><br>
 <pre>
 # Include Font Awesome
