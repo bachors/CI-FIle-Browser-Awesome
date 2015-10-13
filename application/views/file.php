@@ -13,10 +13,10 @@
 		<script src="//code.jquery.com/jquery-2.1.1.min.js"></script>
 		
 		<!-- Include fba.js -->
-		<script src="js/fba.js"></script>
+		<script src="asset/js/fba.js"></script>
 		
 		<!-- Custom Style -->
-		<link type="text/css" rel="stylesheet" href="css/fba.css" />
+		<link type="text/css" rel="stylesheet" href="asset/css/fba.css" />
 		
 		<!-- Include libraries codemirror -->
 		<script src="//cdnjs.cloudflare.com/ajax/libs/codemirror/4.3.0/codemirror.min.js"></script>
