@@ -6,10 +6,10 @@
 *********************************************************************/
 
 // Setting: Base_URL/Controllers_name
-var baseurl = 'http://your-domain.com/file';
+var baseurl = 'http://localhost/ci3/file';
 
 // Folder yang akan discan
-var browser = 'download';
+var browser = 'public_file';
 
 /* Testing di localhost */
 var fix = /\\/;
@@ -34,7 +34,7 @@ if(value != ''){
 
 function ibc_fba(baseurl,sub,fix,browser) {
 	$.ajax( {
-		url:baseurl+'?sub='+sub,
+		url:baseurl+'/map?sub='+sub,
 		crossDomain:true,
 		dataType:"json"
 	}).done(function(data) {
@@ -90,7 +90,7 @@ function ibc_fba(baseurl,sub,fix,browser) {
 
 function ibc_fba_file(baseurl,file) {
 	$.ajax( {
-		url:baseurl+'?file='+file,
+		url:baseurl+'/read?file='+file,
 		crossDomain:true,
 		dataType:"json"
 	}).done(function(data) {
