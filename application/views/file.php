@@ -1,9 +1,6 @@
 <!DOCTYPE html>
 <html>
 	<head>
-
-		<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
-		<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
 		<title>jQuery File Browser Awesome - iBacor.com</title>
 		
 		<!-- Include Font Awesome -->
@@ -33,19 +30,9 @@
 
 	</head>
 	<body>
-		<div id="fb-root"></div>
-		<script>(function(d, s, id) {
-		  var js, fjs = d.getElementsByTagName(s)[0];
-		  if (d.getElementById(id)) return;
-		  js = d.createElement(s); js.id = id;
-		  js.src = "//connect.facebook.net/en_US/sdk.js#xfbml=1&version=v2.4";
-		  fjs.parentNode.insertBefore(js, fjs);
-		}(document, 'script', 'facebook-jssdk'));</script>
 
 		<div id="ibc_konten">
 		
-			<center><div class="fb-like" data-href="http://ibacor.com/file" data-layout="button_count" data-action="like" data-show-faces="false" data-share="false"></div></center><br>
-
 			<!-- Display File Browser Awesome -->
 			<div class="ibc_fba"></div>
 			
@@ -63,8 +50,7 @@
 			</div>
 		</div>
 
-		<a href="https://github.com/bachors/CI-FIle-Browser-Awesome" target="_BLANK"><img style="position: absolute; top: 0; right: 0; border: 0;" src="https://camo.githubusercontent.com/a6677b08c955af8400f44c6298f40e7d19cc5b2d/68747470733a2f2f73332e616d617a6f6e6177732e636f6d2f6769746875622f726962626f6e732f666f726b6d655f72696768745f677261795f3664366436642e706e67" alt="Fork me on GitHub" data-canonical-src="https://s3.amazonaws.com/github/ribbons/forkme_right_gray_6d6d6d.png"></a>
-
+		
 		<script>var editor = CodeMirror.fromTextArea(document.getElementById("ibc_text"), {	mode: "text/html", lineNumbers: true, theme: "monokai"});</script>
 		
 	</body>
