@@ -2,14 +2,14 @@
 Simple plugin file browser for codeigniter with jQuery
 <h1>Install</h1>
 1. <b>application/controllers/file.php</b><br>
-<pre>// Tentukan dulu URL path direktori yang akan di scan. Example: http://ibacor.com/download/file
-private $dirpath = "http://your-domain.com/public_file";</pre><br>
+<pre># Tentukan dulu URL path direktori yang akan di scan.
+Example: private $dirpath = "http://your-domain.com/public_file";</pre><br>
 2. <b>asset/js/fba.js</b><br>
-<pre>// Setting: Base_URL/Controllers_name
+<pre># Setting: Base_URL/Controllers_name
 var baseurl = 'http://your-domain.com/file';</pre><br>
 
-<pre>// Folder yang akan discan
-var browser = 'download';</pre><br>
+<pre># Folder yang akan discan
+var browser = 'public_file';</pre><br>
 3. <b>application/views/file.php</b><br>
 <pre>
 # Include Font Awesome
@@ -41,11 +41,5 @@ var browser = 'download';</pre><br>
 &lt;link rel="stylesheet" href="//cdnjs.cloudflare.com/ajax/libs/codemirror/4.3.0/addon/dialog/dialog.min.css"&gt; <br>
 &lt;link rel="stylesheet" href="//cdnjs.cloudflare.com/ajax/libs/codemirror/4.3.0/theme/monokai.min.css"&gt;
 </pre>
-<pre>
-&lt;!-- Display File Browser Awesome --&gt;
-&lt;div class="ibc_fba"&gt;&lt;/div&gt;
-&lt;!-- Read File --&gt;
-&lt;div id="ibc_fba_file"&gt;&lt;/div&gt;
-</pre>
+
 <h1><a href ="http://ibacor.com/file" target="_BLANK">DEMO</a></h1>
-<h2><a href="https://github.com/bachors/jQuery-File-Browser-Awesome/" target="_blank">see also for PHP native</a></h2>
