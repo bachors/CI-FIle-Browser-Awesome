@@ -53,8 +53,7 @@ $fba = $this->load->library('fba_lib', $opt);
 <pre>
 fba({
    host: 'http://your-domain.com/', // your host / domain
-   api: 'fba', // controllers name fba api
-   dir: 'dir1/dir2' // nama folder yang di scan
+   api: 'fba' // controllers name fba api
 });
 </pre>
 
