@@ -1,115 +1,146 @@
-@import url(http://fonts.googleapis.com/css?family=Open+Sans:400,300,600,700,800);
+/*********************************************************************
+* #### jQuery File Browser Awesome v0.2.0 ####
+* Coded by Ican Bachors 2014.
+* http://ibacor.com/labs/jquery-file-browser-awesome/
+* Updates will be posted to this site.
+*********************************************************************/
 
-#ibc_konten {
-	font-family: "Open Sans";
-	font-size: 14px;
-	background: #fff;
-	margin-left:20%;
-	margin-right:20%
+#fba {
+	font-family: Arial;
+	font-size: 1em;
+	display: block;
+	color: #333;
 }
 
-.ibc_fba table{
-	background: #E6F1F6;
-	color: #4E575B;
-	width: 100%;
-	padding: 0px;
-	border: 1px solid #B7C7CF;
-	border-top-left-radius: 3px;
-	border-top-right-radius: 3px;
+#fba .fba_header,
+#fba .fba_body,
+#fba .fba_body .fba_content,
+#fba .fba_body .fba_root {
+	display: block;
+	margin: 0;
 }
 
-.ibc_fba th{
-	color: #333
+#fba .fba_header,
+#fba .fba_body .fba_content,
+#fba .fba_body .fba_root {
+	padding: 9px 10px 10px;
 }
 
-.ibc_fba td{
-	background: #F8F8F8;
-	color: #767676
+#fba .fba_header div,
+#fba .fba_body .fba_content div {
+	display: inline-block;
+	width: 33%;
+	overflow: hidden;
+	white-space: nowrap;
+	text-overflow: ellipsis;
 }
 
-.ibc_fba th, .ibc_fba td{
-	padding: 5px
-}
-
-.ibc_fba td.root{
-	background: #fff;
+#fba .fba_header {
 	font-weight: bold;
-	text-align: left
+	background-color: #f5f5f5;
+	border: 1px solid #d8d8d8;
+	border-radius: 3px 3px 0 0;
 }
 
-.ibc_fba td.name, .ibc_fba th.name {
-	text-align: left
+#fba .fba_header div {
+	text-align: center;
 }
 
-.ibc_fba td.size, .ibc_fba th.size, .ibc_fba td.modif, .ibc_fba th.modif {
-	text-align: right
+#fba .fba_body {
+	border: 0px;
+	border-left: 1px solid #ddd;
+	border-right: 1px solid #ddd;
+	background: #fff;
 }
 
-.ibc_fba a {
-	color: #4078C0;
-	text-decoration: none
+#fba .fba_body .fba_content {
+	color: #888;
+	border: 0px;
+	border-bottom: 1px solid #ddd;
 }
 
-.ibc_fba .rfile,.ibc_fba .sub {
-	font-family: "Open Sans";
-	color: #4078C0
+#fba .fba_body .fba_content div.name {
+	text-align: left;
 }
 
-
-.ibc_fba .fa {
-	cursor: pointer
+#fba .fba_body .fba_content div.size,
+#fba .fba_body .fba_content div.modif {
+	text-align: right;
 }
 
-.ibc_fba .fa-folder {
-	color: #80A6CD
+#fba .fba_body .fba_root {
+	border: 0px;
+	border-bottom: 1px solid #c9e6f2;
+	background-color: #f2f9fc;
+	color: #888;
+	text-align: left;
 }
 
-.ibc_fba .fa-file-text-o {
-	color: #767676
+#fba .fba_direktori {
+	margin-bottom: 10px;
 }
 
-.ibc_fba .fa-cloud-download {
-	color: #ea97f4
+#fba .fba_direktori a {
+	color: #4078c0;
+	text-decoration: none;
 }
 
-.ibc_fba .fa-reply {
-	color: #ccc
+#fba .fba_direktori .rfile,
+#fba .fba_direktori .sub {
+	font-family: Arial;
+	color: #4078c0;
 }
 
-#ibc_fba_file .pan_code {
-	background-color: #FCF8E3;
-	border-color: #FAEBCC;
-	color: #8A6D3B;
-	padding:10px;
-	margin-top:10px;
-	margin-bottom:10px;
-	border-radius:4px;
-	-moz-border-radius:4px;
-	-webkit-border-radius:4px;
+#fba .fba_direktori .fa {
+	cursor: pointer;
 }
 
-.CodeMirror {
-	border-top: 1px solid #eee;
-	border-bottom: 1px solid #eee;
+#fba .fba_direktori .fa-folder {
+	color: #80a6cd;
+}
+
+#fba .fba_direktori .fa-file-text-o {
+	color: #767676;
+}
+
+#fba .fba_direktori .fa-cloud-download {
+	color: #ea97f4;
+}
+
+#fba .fba_direktori .fa-android {
+	color: #ADFF5C;
+}
+
+#fba .fba_direktori .fa-pdf-o {
+	color: #FF6C60;
+}
+
+#fba .fba_direktori .fa-level-up {
+	color: #FF5CAD;
+}
+
+#fba .fba_read_file {
+	display: block;
+	padding: 9px 10px 10px;
+	margin: 0;
+	background-color: #f5f5f5;
+	border: 1px solid #d8d8d8;
+	border-bottom: 0;
+	border-radius: 3px 3px 0 0;
+}
+
+#fba .fba_read_file #rf {
+	color: #888
+}
+
+#fba .CodeMirror {
+	border: 1px solid #d8d8d8;
 	line-height: 1.3;
 	height: 400px;
-	text-align:left
+	text-align: left;
+	margin: 0px;
 }
 
-.CodeMirror-linenumbers {
+#fba .CodeMirror-linenumbers {
 	padding: 0 8px;
-}
-
-@media (min-width:768px)and (max-width:991px) {
-    #ibc_konten {
-		margin-left:10%;
-		margin-right:10%
-	}
-}
-
-@media (min-width:320px)and (max-width:768px) {
-    #ibc_konten {
-		margin-left:5%;
-		margin-right:5%
-	}
 }
