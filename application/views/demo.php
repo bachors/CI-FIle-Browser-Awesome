@@ -42,8 +42,7 @@
 		<script>
 		fba({
 			host: '<?php echo base_url(); ?>', // your host / domain
-			api: 'fba', // controllers name fba api
-			dir: 'files' // nama folder yang akan di scan
+			api: 'fba' // controllers name fba api
 		});
 		</script>
 		
