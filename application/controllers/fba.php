@@ -12,13 +12,13 @@ class Fba extends CI_Controller {
 		);
 		
 		// Load class fba_lib.php
-		$fba = $this->load->library('fba_lib', $opt);
+		$this->load->library('fba_lib', $opt);
 		
 		// Scan direktori
 		if(isset($_POST['path'])){
 
 			// Jalankan fungsi scan->('SUB DIR NAME')
-			$res = $fba->scan($_POST['path']);
+			$res = $this->fba_lib->scan($_POST['path']);
 			
 			// Output list direktori & file dalam format JSON
 			echo json_encode($res);
@@ -29,7 +29,7 @@ class Fba extends CI_Controller {
 		else if(!empty($_POST['file'])){
 
 			// Jalankan fungsi scan->('SUB DIR NAME')
-			$res = $fba->read($_POST['file']);
+			$res = $this->fba_lib->read($_POST['file']);
 			
 			// Output isi file
 			echo json_encode($res);
